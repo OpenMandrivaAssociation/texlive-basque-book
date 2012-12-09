@@ -51,3 +51,11 @@ writing books, PhD and Master Theses, etc., in Basque.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.20-1
++ Revision: 813398
+- Import texlive-basque-book
+- Import texlive-basque-book
+
