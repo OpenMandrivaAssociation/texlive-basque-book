@@ -6,7 +6,7 @@
 # catalog-version 1.20
 Name:		texlive-basque-book
 Version:	1.20
-Release:	4
+Release:	5
 Summary:	Class for book-type documents written in Basque
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/basque-book
