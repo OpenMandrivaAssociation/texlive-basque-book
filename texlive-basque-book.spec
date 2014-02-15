@@ -1,12 +1,12 @@
-# revision 27049
+# revision 32924
 # category Package
 # catalog-ctan /macros/latex/contrib/basque-book
-# catalog-date 2012-07-09 13:17:27 +0200
+# catalog-date 2014-02-03 15:00:17 +0100
 # catalog-license lppl1.2
 # catalog-version 1.20
 Name:		texlive-basque-book
 Version:	1.20
-Release:	5
+Release:	6
 Summary:	Class for book-type documents written in Basque
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/basque-book
@@ -38,6 +38,8 @@ writing books, PhD and Master Theses, etc., in Basque.
 %{_texmfdistdir}/tex/latex/basque-book/basque-book.cls
 %doc %{_texmfdistdir}/doc/latex/basque-book/README
 %doc %{_texmfdistdir}/doc/latex/basque-book/basque-book.pdf
+%doc %{_texmfdistdir}/doc/latex/basque-book/basque-book_EUS.pdf
+%doc %{_texmfdistdir}/doc/latex/basque-book/basque-book_EUS.tex
 #- source
 %doc %{_texmfdistdir}/source/latex/basque-book/basque-book.dtx
 %doc %{_texmfdistdir}/source/latex/basque-book/basque-book.ins
@@ -51,11 +53,3 @@ writing books, PhD and Master Theses, etc., in Basque.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.20-1
-+ Revision: 813398
-- Import texlive-basque-book
-- Import texlive-basque-book
-
