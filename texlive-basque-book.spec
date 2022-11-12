@@ -5,9 +5,9 @@ Summary:	Class for book-type documents written in Basque
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/basque-book
 License:	LPPL1.2
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/basque-book.r32924.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/basque-book.doc.r32924.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/basque-book.source.r32924.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/basque-book.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/basque-book.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/basque-book.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
