@@ -1,6 +1,6 @@
 Name:		texlive-basque-book
 Version:	32924
-Release:	1
+Release:	2
 Summary:	Class for book-type documents written in Basque
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/basque-book
