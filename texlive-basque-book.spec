@@ -3,7 +3,7 @@ Version:	32924
 Release:	2
 Summary:	Class for book-type documents written in Basque
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/basque-book
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/basque-book
 License:	LPPL1.2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/basque-book.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/basque-book.doc.r%{version}.tar.xz
